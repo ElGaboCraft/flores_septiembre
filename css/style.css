@@ -27,7 +27,7 @@
         font-size: 6rem;
         font-weight: 900;
         text-transform: uppercase;
-        scale: 80%;
+        scale: 75%;
     }
     .button a{
         text-transform: uppercase;
@@ -36,7 +36,7 @@
         color: #111;
     }
     .button {
-        scale: 125%;
+        scale: 100%;
     }
     .description{
         font-size: 2rem;
