@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+@media screen and (max-width:600px){
+    .greetings{
+        display: block;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    .description{
+        font-size: 2rem;
+    }
+    
+    .button a{
+        font-size: 1rem;
+    }
+    body{
+        scale: 80%;
+        position: inherit;
+        display: flex;
+        align-items: center;
+        height: 25vh;
+    }
+    .greetings{
+        font-size: 6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .button a{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #111;
+    }
+    .description{
+        font-size: 2rem;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .texto {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .credits{
+        font-size: 15px;
+        text-transform: uppercase;
+        text-align: center;
+        scale: 150%;
+    }
+}
+@media only screen and (min-width: 601px) {
+    body {
+        margin-top: 100px;
+    }
+    .texto {
+        scale: 90%;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .credits{
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .greetings{
+        font-size: 7rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .button a{
+        text-decoration: none;
+        font-size: 1.15rem;
+        color: #111;
+        text-transform: uppercase;
+    }
+    .description{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+body{
+    color: azure;
+    flex-direction: column;
+    background-color: black;
+}
+.texto {
+    display: flex;
+    position: relative;
+    background-color: #f9f9f97a;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fffbe6;
+    text-align: center;
+}
+.botones a:focus{
+    background-color: rgb(50, 194, 194);
+}
+.greetings > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.greetings > span:nth-child(2){
+    animation-delay: .2s ;
+}
+.greetings > span:nth-child(3){
+    animation-delay: .4s ;
+}
+.greetings > span:nth-child(4){
+    animation-delay: .6s;
+}
+.greetings > span:nth-child(5){
+    animation-delay: .8s;
+}
+.greetings > span:nth-child(6){
+    animation-delay: 1s;
+}
+.botones{
+    padding: 9px;
+    border-radius: 80px;
+    background-color: transparent;
+    border: none;
+}
+.botones a{
+    background-color: #0a2be9;
+    padding: 9px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+
+}
+.button{
+    margin-bottom: 20px;
+    text-align: center;
+}
