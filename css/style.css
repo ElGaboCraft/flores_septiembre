@@ -27,12 +27,16 @@
         font-size: 6rem;
         font-weight: 900;
         text-transform: uppercase;
+        scale: 80%;
     }
     .button a{
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: #111;
+    }
+    .button {
+        scale: 125%;
     }
     .description{
         font-size: 2rem;
@@ -50,7 +54,7 @@
         font-size: 15px;
         text-transform: uppercase;
         text-align: center;
-        scale: 150%;
+        scale: 125%;
     }
 }
 @media only screen and (min-width: 601px) {
